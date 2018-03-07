@@ -1840,7 +1840,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffcf55;
+  background: #24f6ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2939,7 +2939,7 @@ hr {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("/images/6.jpg");
+  background: url("/images/10.jpg");
   background-attachment: fixed;
 }
 .main-inner {
