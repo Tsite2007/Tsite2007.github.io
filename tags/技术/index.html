@@ -1,15 +1,13 @@
-<!doctype html>
-
-
-
-  
-
+<!doctype html>    
 
 <html class="theme-next mist use-motion" lang="zh-Hans">
+
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <script>
     (function(){
         if(''){
@@ -20,6 +18,19 @@
         }
     })();
 </script>
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
 
 
 
@@ -162,16 +173,14 @@
 
 </head>
 
+
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  
-  
-    
-  
+     
 
   <div class="container sidebar-position-left  ">
     <div class="headband"></div>
-<a href="https://github.com/Tsite2007"><img style="position: fixed; top: 0; right: 0; border: 0;z-index:999999;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+    <!-- <a href="https://github.com/Tsite2007"><img style="position: fixed; top: 0; right: 0; border: 0;z-index:999999;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a> -->
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -378,12 +387,10 @@
           </div>
           
 
-
-          
+ 
 
         </div>
-        
-          
+         
   
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
@@ -469,8 +476,7 @@
     </div>
   </aside>
 
-
-        
+ 
       </div>
     </main>
 
@@ -485,36 +491,20 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">无相</span>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+    本站访客数:<span id="busuanzi_value_site_uv"></span>
+  </span>
 </div>
-<div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-
-        
-
-        
+ 
+ 
       </div>
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i> 
+    </div>
     
 
   </div>
@@ -566,33 +556,21 @@
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-
-  
+ 
 
 
   <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
 
   <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
 
-
-
-  
-  
-
-  
     <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
-
-  
-
   
 
 
   <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
 
-
-
-  
+ 
 
 
   
@@ -630,8 +608,7 @@
 
 
 
-
-  
+ 
 
   <script type="text/javascript">
     // Popup Window;
@@ -953,10 +930,8 @@
 
 
 
-
-  
-
-  
+ 
+ 
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -972,16 +947,13 @@
 })();
 </script>
 
-
-  
-
-  
-
-  
-
-  
+ 
+ 
+ 
+ 
 
   <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/love.js"></script>
-</body>
+  <script type="text/javascript" src="/js/src/love.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({});</script></body>
+
 </html>
